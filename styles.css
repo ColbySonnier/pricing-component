@@ -1,0 +1,58 @@
+.doc {
+    border: 2px solid black;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header {
+    border: 2px solid black;
+}
+
+.toggle{
+    border: 2px solid black;
+}
+
+.options{
+    border: 2px solid black;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.basic, .professional, .master{
+    border: 2px solid red;
+}
+
+.basic, .master{
+    height: 400px;
+}
+
+.professional{
+    height: 450px;
+}
+
+.option-header{
+    border: 2px solid black;
+}
+
+.price{
+    border: 2px solid black;
+}
+
+.info{
+    border: 2px solid black;
+}
